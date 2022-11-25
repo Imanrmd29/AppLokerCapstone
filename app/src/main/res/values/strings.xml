@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppLoker</string>
+    <string name="title_home">Home</string>
+    <string name="title_category">Category</string>
+    <string name="title_list">List</string>
+    <string name="title_profile">Profile</string>
+</resources>
