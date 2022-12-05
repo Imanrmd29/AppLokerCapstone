@@ -4,4 +4,9 @@
     <string name="title_category">Category</string>
     <string name="title_list">List</string>
     <string name="title_profile">Profile</string>
+    <string name="image_splashscreen">Image_Splashscreen</string>
+    <string name="mobile_developer">Mobile Developer</string>
+    <string name="ui_ux_designer">UI/UX Designer</string>
+    <string name="web_developer">Web Developer</string>
+    <string name="kategori">Kategori</string>
 </resources>
