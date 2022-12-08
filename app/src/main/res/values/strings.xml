@@ -11,6 +11,8 @@
     <string name="kategori">Kategori</string>
     <!-- Strings related to login -->
     <string name="username">Username</string>
+    <string name="aploker">APLOKER</string>
+    <string name="login">LOGIN</string>
     <string name="password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
@@ -18,4 +20,18 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="belum_punya">Belum punya akun?</string>
+    <string name="teks_masuk">Masuk</string>
+    <string name="teks_daftar">Daftar</string>
+    <string name="buat_akun">BUAT AKUN</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="btn_kembali">Kembali</string>
+    <string name="btn_buat">Buat</string>
+    <string name="btn_masuk">Masuk</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
 </resources>

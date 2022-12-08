@@ -4,9 +4,12 @@ package com.c22_054.apploker.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.SearchView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -20,11 +23,46 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView tvHome;
+  public final ImageView imageMobile;
 
-  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull TextView tvHome) {
+  @NonNull
+  public final ImageView imageView4;
+
+  @NonNull
+  public final ImageView imageWeb;
+
+  @NonNull
+  public final CardView mobileCard;
+
+  @NonNull
+  public final SearchView searchBar;
+
+  @NonNull
+  public final TextView textMobile;
+
+  @NonNull
+  public final TextView textView4;
+
+  @NonNull
+  public final TextView textWeb;
+
+  @NonNull
+  public final CardView webCard;
+
+  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageMobile,
+      @NonNull ImageView imageView4, @NonNull ImageView imageWeb, @NonNull CardView mobileCard,
+      @NonNull SearchView searchBar, @NonNull TextView textMobile, @NonNull TextView textView4,
+      @NonNull TextView textWeb, @NonNull CardView webCard) {
     this.rootView = rootView;
-    this.tvHome = tvHome;
+    this.imageMobile = imageMobile;
+    this.imageView4 = imageView4;
+    this.imageWeb = imageWeb;
+    this.mobileCard = mobileCard;
+    this.searchBar = searchBar;
+    this.textMobile = textMobile;
+    this.textView4 = textView4;
+    this.textWeb = textWeb;
+    this.webCard = webCard;
   }
 
   @Override
@@ -54,13 +92,62 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.tv_home;
-      TextView tvHome = ViewBindings.findChildViewById(rootView, id);
-      if (tvHome == null) {
+      id = R.id.imageMobile;
+      ImageView imageMobile = ViewBindings.findChildViewById(rootView, id);
+      if (imageMobile == null) {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ConstraintLayout) rootView, tvHome);
+      id = R.id.imageView4;
+      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView4 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageWeb;
+      ImageView imageWeb = ViewBindings.findChildViewById(rootView, id);
+      if (imageWeb == null) {
+        break missingId;
+      }
+
+      id = R.id.mobileCard;
+      CardView mobileCard = ViewBindings.findChildViewById(rootView, id);
+      if (mobileCard == null) {
+        break missingId;
+      }
+
+      id = R.id.search_bar;
+      SearchView searchBar = ViewBindings.findChildViewById(rootView, id);
+      if (searchBar == null) {
+        break missingId;
+      }
+
+      id = R.id.textMobile;
+      TextView textMobile = ViewBindings.findChildViewById(rootView, id);
+      if (textMobile == null) {
+        break missingId;
+      }
+
+      id = R.id.textView4;
+      TextView textView4 = ViewBindings.findChildViewById(rootView, id);
+      if (textView4 == null) {
+        break missingId;
+      }
+
+      id = R.id.textWeb;
+      TextView textWeb = ViewBindings.findChildViewById(rootView, id);
+      if (textWeb == null) {
+        break missingId;
+      }
+
+      id = R.id.webCard;
+      CardView webCard = ViewBindings.findChildViewById(rootView, id);
+      if (webCard == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((ConstraintLayout) rootView, imageMobile, imageView4, imageWeb,
+          mobileCard, searchBar, textMobile, textView4, textWeb, webCard);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

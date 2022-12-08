@@ -84,6 +84,7 @@
     <style name="Base.Theme.MaterialComponents.Light.Dialog" parent="Base.V21.Theme.MaterialComponents.Light.Dialog"/>
     <style name="Base.ThemeOverlay.AppCompat.Dialog" parent="Base.V21.ThemeOverlay.AppCompat.Dialog"/>
     <style name="Base.ThemeOverlay.Material3.BottomSheetDialog" parent="Base.V21.ThemeOverlay.Material3.BottomSheetDialog"/>
+    <style name="Base.ThemeOverlay.Material3.SideSheetDialog" parent="Base.V21.ThemeOverlay.Material3.SideSheetDialog"/>
     <style name="Base.ThemeOverlay.MaterialComponents.Dialog" parent="Base.V14.ThemeOverlay.MaterialComponents.Dialog">
     <item name="android:windowBackground">@drawable/mtrl_dialog_background</item>
   </style>
@@ -201,6 +202,9 @@
         <item name="android:windowElevation">@dimen/abc_floating_window_z</item>
     </style>
     <style name="Base.V21.ThemeOverlay.Material3.BottomSheetDialog" parent="Base.V14.ThemeOverlay.Material3.BottomSheetDialog">
+    <item name="android:statusBarColor">@android:color/transparent</item>
+  </style>
+    <style name="Base.V21.ThemeOverlay.Material3.SideSheetDialog" parent="Base.V14.ThemeOverlay.Material3.SideSheetDialog">
     <item name="android:statusBarColor">@android:color/transparent</item>
   </style>
     <style name="Base.V21.ThemeOverlay.MaterialComponents.BottomSheetDialog" parent="Base.V14.ThemeOverlay.MaterialComponents.BottomSheetDialog">
@@ -550,6 +554,7 @@
         <item name="android:textColor">@color/androidx_core_secondary_text_default_material_light</item>
         <item name="android:textSize">@dimen/notification_action_text_size</item>
     </style>
+    <style name="Widget.Material3.BottomNavigationView" parent="Base.Widget.Material3.BottomNavigationView"/>
     <style name="Widget.Material3.TabLayout" parent="Base.Widget.Material3.TabLayout">
     <item name="android:background">@drawable/m3_tabs_background</item>
   </style>

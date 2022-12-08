@@ -33,7 +33,11 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Zdieľať s"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Zdieľať s aplikáciou <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Zbaliť"</string>
+    <string name="bottomsheet_action_collapse">Zbaliť dolný hárok</string>
+    <string name="bottomsheet_action_expand">Rozbaliť dolný hárok</string>
     <string name="bottomsheet_action_expand_halfway">Rozbaliť napoly</string>
+    <string name="bottomsheet_drag_handle_clicked">Dvojité klepnutie na presúvadlo</string>
+    <string name="bottomsheet_drag_handle_content_description">Presúvadlo</string>
     <string name="character_counter_content_description">Zadané znaky: %1$d z %2$d</string>
     <string name="character_counter_overflowed_content_description">Bol prekročený povolený počet znakov (%1$d z %2$d)</string>
     <string name="clear_text_end_icon_content_description">Vymazať text</string>
@@ -42,6 +46,7 @@
     <string name="icon_content_description">Ikona dialógového okna</string>
     <string name="item_view_role_description">Tabulátor</string>
     <string name="material_clock_toggle_content_description">Vyberte AM alebo PM</string>
+    <string name="material_hour_24h_suffix">%1$s hodín</string>
     <string name="material_hour_selection">Vybrať hodinu</string>
     <string name="material_hour_suffix">%1$s</string>
     <string name="material_minute_selection">Vyberte minúty</string>

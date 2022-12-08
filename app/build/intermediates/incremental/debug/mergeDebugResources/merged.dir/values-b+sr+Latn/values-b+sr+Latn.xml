@@ -32,7 +32,11 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Delite pomoću"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Delite pomoću aplikacije <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Skupi"</string>
+    <string name="bottomsheet_action_collapse">Skupite donju tabelu</string>
+    <string name="bottomsheet_action_expand">Proširite donju tabelu</string>
     <string name="bottomsheet_action_expand_halfway">Proširite do pola</string>
+    <string name="bottomsheet_drag_handle_clicked">Identifikator za prevlačenje je dvaput dodirnut</string>
+    <string name="bottomsheet_drag_handle_content_description">Ručica za prevlačenje</string>
     <string name="character_counter_content_description">Uneti znakovi: %1$d od %2$d</string>
     <string name="character_counter_overflowed_content_description">Prekoračeno je ograničenje broja znakova: %1$d od %2$d</string>
     <string name="clear_text_end_icon_content_description">Obriši tekst</string>
@@ -41,6 +45,7 @@
     <string name="icon_content_description">Ikona dijaloga</string>
     <string name="item_view_role_description">Kartica</string>
     <string name="material_clock_toggle_content_description">Izaberite pre podne ili po podne</string>
+    <string name="material_hour_24h_suffix">%1$s s</string>
     <string name="material_hour_selection">Izaberite sat</string>
     <string name="material_hour_suffix">%1$s s</string>
     <string name="material_minute_selection">Izaberite minute</string>

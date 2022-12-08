@@ -31,7 +31,11 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"শেয়ার করুন"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>-এর সাথে শেয়ার করুন"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"সঙ্কুচিত করুন"</string>
+    <string name="bottomsheet_action_collapse">স্ক্রিনের নিচে অ্যাটাচ করা শিট আড়াল করুন</string>
+    <string name="bottomsheet_action_expand">স্ক্রিনের নিচে অ্যাটাচ করা শিট বড় করুন</string>
     <string name="bottomsheet_action_expand_halfway">অর্ধেক প্রসারিত করুন</string>
+    <string name="bottomsheet_drag_handle_clicked">টেনে আনার হ্যান্ডেলে ডবল ট্যাপ করা হয়েছে</string>
+    <string name="bottomsheet_drag_handle_content_description">টেনে আনার হ্যান্ডেল</string>
     <string name="character_counter_content_description">%2$dটির মধ্যে %1$dটি অক্ষর লেখা হয়েছে</string>
     <string name="character_counter_overflowed_content_description">অক্ষরের সীমা %1$d এর %2$d অতিক্রম করেছে</string>
     <string name="clear_text_end_icon_content_description">টেক্সট মুছুন</string>
@@ -40,6 +44,7 @@
     <string name="icon_content_description">ডায়ালগ আইকন</string>
     <string name="item_view_role_description">ট্যাব</string>
     <string name="material_clock_toggle_content_description">AM অথবা PM বেছে নিন</string>
+    <string name="material_hour_24h_suffix">%1$s ঘণ্টা</string>
     <string name="material_hour_selection">ঘণ্টা বেছে নিন</string>
     <string name="material_hour_suffix">%1$sটা বাজে</string>
     <string name="material_minute_selection">মিনিট বেছে নিন</string>

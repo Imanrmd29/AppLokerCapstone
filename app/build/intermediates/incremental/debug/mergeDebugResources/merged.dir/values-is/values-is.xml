@@ -31,7 +31,11 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Deila með"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Deila með <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Minnka"</string>
+    <string name="bottomsheet_action_collapse">Minnka blað neðst</string>
+    <string name="bottomsheet_action_expand">Stækka blað neðst</string>
     <string name="bottomsheet_action_expand_halfway">Stækka til hálfs</string>
+    <string name="bottomsheet_drag_handle_clicked">Ýtt tvisvar á dragkló</string>
+    <string name="bottomsheet_drag_handle_content_description">Dragkló</string>
     <string name="character_counter_content_description">Innslegnir stafir %1$d af %2$d</string>
     <string name="character_counter_overflowed_content_description">Yfir hámarksstafafjölda, %1$d af %2$d</string>
     <string name="clear_text_end_icon_content_description">Hreinsa texta</string>
@@ -40,6 +44,7 @@
     <string name="icon_content_description">Gluggatákn</string>
     <string name="item_view_role_description">Flipi</string>
     <string name="material_clock_toggle_content_description">Velja f.h. eða e.h.</string>
+    <string name="material_hour_24h_suffix">%1$s klst.</string>
     <string name="material_hour_selection">Velja tíma</string>
     <string name="material_hour_suffix">klukkan %1$s</string>
     <string name="material_minute_selection">Veldu mínútur</string>

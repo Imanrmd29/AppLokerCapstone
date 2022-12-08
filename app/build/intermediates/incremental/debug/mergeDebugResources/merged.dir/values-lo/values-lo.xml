@@ -31,7 +31,11 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"ແບ່ງປັນກັບ"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"ແບ່ງປັນດ້ວຍ <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ຫຍໍ້ລົງ"</string>
+    <string name="bottomsheet_action_collapse">ຫຍໍ້ຊີດລຸ່ມສຸດລົງ</string>
+    <string name="bottomsheet_action_expand">ຂະຫຍາຍຊີດລຸ່ມສຸດ</string>
     <string name="bottomsheet_action_expand_halfway">ຂະຫຍາຍອອກເຄິ່ງໜຶ່ງ</string>
+    <string name="bottomsheet_drag_handle_clicked">ແຕະບ່ອນຈັບລາກສອງເທື່ອແລ້ວ</string>
+    <string name="bottomsheet_drag_handle_content_description">ບ່ອນຈັບລາກ</string>
     <string name="character_counter_content_description">ຕົວອັກສອນທີ່ປ້ອນເຂົ້າ %1$d ຕົວຈາກທັງໝົດ %2$d ຕົວ</string>
     <string name="character_counter_overflowed_content_description">ຂີດຈຳກັດຕົວອັກສອນເກີນ %1$d ຈາກທັງໝົດ %2$d</string>
     <string name="clear_text_end_icon_content_description">ລຶບລ້າງຂໍ້ຄວາມ</string>
@@ -40,6 +44,7 @@
     <string name="icon_content_description">ໄອຄອນກ່ອງໂຕ້ຕອບ</string>
     <string name="item_view_role_description">ແຖບ</string>
     <string name="material_clock_toggle_content_description">ເລືອກຕອນເຊົ້າ ຫຼື ຕອນແລງ</string>
+    <string name="material_hour_24h_suffix">%1$s ຊົ່ວໂມງ</string>
     <string name="material_hour_selection">ເລືອກຊົ່ວໂມງ</string>
     <string name="material_hour_suffix">%1$s ໂມງ</string>
     <string name="material_minute_selection">ເລືອກນາ​ທີ</string>

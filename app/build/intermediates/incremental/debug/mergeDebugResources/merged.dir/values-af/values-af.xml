@@ -31,7 +31,11 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Deel met"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Deel met <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Vou in"</string>
+    <string name="bottomsheet_action_collapse">Vou die onderste blad in</string>
+    <string name="bottomsheet_action_expand">Vou die onderste blad uit</string>
     <string name="bottomsheet_action_expand_halfway">Vou halfpad uit</string>
+    <string name="bottomsheet_drag_handle_clicked">Het op sleephandvatsel gedubbeltik</string>
+    <string name="bottomsheet_drag_handle_content_description">Sleephandvatsel</string>
     <string name="character_counter_content_description">Karakters ingevoer: %1$d van %2$d</string>
     <string name="character_counter_overflowed_content_description">Karakterlimiet oorskry %1$d van %2$d</string>
     <string name="clear_text_end_icon_content_description">Vee teks uit</string>
@@ -40,6 +44,7 @@
     <string name="icon_content_description">Dialoogikoon</string>
     <string name="item_view_role_description">Oortjie</string>
     <string name="material_clock_toggle_content_description">Kies vm. of nm.</string>
+    <string name="material_hour_24h_suffix">%1$s uur</string>
     <string name="material_hour_selection">Kies uur</string>
     <string name="material_hour_suffix">%1$s-uur</string>
     <string name="material_minute_selection">Kies minute</string>

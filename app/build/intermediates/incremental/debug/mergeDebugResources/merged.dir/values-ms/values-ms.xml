@@ -31,7 +31,11 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Kongsi dengan"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Kongsi dengan <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Runtuhkan"</string>
+    <string name="bottomsheet_action_collapse">Kuncupkan helaian bawah</string>
+    <string name="bottomsheet_action_expand">Kembangkan helaian bawah</string>
     <string name="bottomsheet_action_expand_halfway">Kembangkan helaian bawah</string>
+    <string name="bottomsheet_drag_handle_clicked">Pemegang seret diketik dua kali</string>
+    <string name="bottomsheet_drag_handle_content_description">Pemegang seret</string>
     <string name="character_counter_content_description">Aksara dimasukkan %1$d daripada %2$d</string>
     <string name="character_counter_overflowed_content_description">Melebihi had aksara %1$d daripada %2$d</string>
     <string name="clear_text_end_icon_content_description">Kosongkan teks</string>
@@ -40,6 +44,7 @@
     <string name="icon_content_description">Ikon Dialog</string>
     <string name="item_view_role_description">Tab</string>
     <string name="material_clock_toggle_content_description">Pilih AM atau PM</string>
+    <string name="material_hour_24h_suffix">%1$s jam</string>
     <string name="material_hour_selection">Pilih jam</string>
     <string name="material_hour_suffix">Pukul %1$s</string>
     <string name="material_minute_selection">Pilih minit</string>
