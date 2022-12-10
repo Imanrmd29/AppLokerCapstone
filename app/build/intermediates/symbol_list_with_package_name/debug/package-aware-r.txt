@@ -3561,6 +3561,7 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id aploker
 id arc
 id asConfigured
 id async
@@ -3712,6 +3713,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageMobile
 id imageView
 id imageView2
 id imageView3
@@ -3772,6 +3774,7 @@ id matrix
 id message
 id middle
 id mini
+id mobileCard
 id mobile_navigation
 id month_grid
 id month_navigation_bar
@@ -3953,6 +3956,7 @@ id teks_username
 id text
 id text2
 id textEnd
+id textMobile
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart

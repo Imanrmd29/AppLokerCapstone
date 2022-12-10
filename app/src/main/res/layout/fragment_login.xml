@@ -37,10 +37,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:fontFamily="@font/poppins_bold"
         android:gravity="top"
         android:text="@string/login"
-        android:textAppearance="@style/login"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_1"
         app:layout_constraintStart_toStartOf="@+id/rectangle_1"
@@ -56,10 +54,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:fontFamily="@font/poppins_semibold"
         android:gravity="top"
         android:text="@string/username"
-        android:textAppearance="@style/font1"
         app:layout_constraintBottom_toTopOf="@+id/username"
         app:layout_constraintStart_toStartOf="@+id/username" />
 
@@ -93,10 +89,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:fontFamily="@font/poppins_semibold"
         android:gravity="top"
         android:text="@string/password"
-        android:textAppearance="@style/font1"
         app:layout_constraintBottom_toTopOf="@+id/password"
         app:layout_constraintStart_toStartOf="@+id/password" />
 
@@ -151,7 +145,6 @@
         android:layout_marginStart="88dp"
         android:gravity="center_horizontal|top"
         android:text="@string/belum_punya"
-        android:textAppearance="@style/font2"
         app:layout_constraintStart_toStartOf="@+id/password"
         app:layout_constraintTop_toBottomOf="@+id/login" />
 
@@ -161,7 +154,6 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="88dp"
         android:text="@string/teks_daftar"
-        android:textAppearance="@style/font2"
         android:textColor="#002FD3"
         app:layout_constraintEnd_toEndOf="@+id/password"
         app:layout_constraintTop_toBottomOf="@+id/login" />
@@ -184,7 +176,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:backgroundTint="@color/emas"
-        android:fontFamily="@font/poppins_bold"
         android:text="@string/btn_masuk"
         app:layout_constraintEnd_toEndOf="@+id/password"
         app:layout_constraintStart_toStartOf="@+id/password"

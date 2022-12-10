@@ -26,7 +26,6 @@
         android:layout_marginTop="150dp"
         android:gravity="center_horizontal|center_vertical"
         android:text="@string/aploker"
-        android:textAppearance="@style/aploker"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/image_spalash"
         app:layout_constraintStart_toStartOf="@+id/image_spalash"

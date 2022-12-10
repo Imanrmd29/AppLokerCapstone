@@ -34,7 +34,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:fontFamily="@font/poppins_bold"
         android:text="@string/kategori"
         android:textColor="#000000"
         app:layout_constraintStart_toStartOf="@+id/search_bar"
@@ -76,7 +75,6 @@
                 android:layout_marginStart="38dp"
                 android:layout_marginTop="30dp"
                 android:layout_toEndOf="@+id/imageWeb"
-                android:fontFamily="@font/poppins_bold"
                 android:text="@string/web_developer"
                 android:textColor="#000000" />
         </RelativeLayout>
@@ -120,7 +118,6 @@
                 android:layout_marginStart="38dp"
                 android:layout_marginTop="30dp"
                 android:layout_toEndOf="@+id/imageMobile"
-                android:fontFamily="@font/poppins_bold"
                 android:text="@string/web_developer"
                 android:textColor="#000000" />
         </RelativeLayout>

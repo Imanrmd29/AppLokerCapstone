@@ -34,9 +34,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:fontFamily="@font/poppins_bold"
         android:text="@string/kategori"
-        android:textColor="@color/black"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="@+id/search_bar"
         app:layout_constraintTop_toBottomOf="@+id/search_bar" />
 
@@ -76,57 +75,55 @@
                 android:layout_marginStart="38dp"
                 android:layout_marginTop="30dp"
                 android:layout_toEndOf="@+id/imageWeb"
-                android:fontFamily="@font/poppins_bold"
                 android:text="@string/web_developer"
-                android:textColor="@color/black" />
+                android:textColor="#000000" />
         </RelativeLayout>
 
 
     </androidx.cardview.widget.CardView>
 
-<!--    <androidx.cardview.widget.CardView-->
-<!--        android:id="@+id/mobileCard"-->
-<!--        android:layout_width="218dp"-->
-<!--        android:layout_height="94dp"-->
-<!--        android:layout_marginTop="19dp"-->
-<!--        android:background="@drawable/myrect"-->
-<!--        android:elevation="20dp"-->
-<!--        android:translationZ="50dp"-->
-<!--        app:cardCornerRadius="10dp"-->
-<!--        app:layout_constraintStart_toStartOf="@+id/textView4"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/textView4">-->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/mobileCard"
+        android:layout_width="218dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/myrect"
+        android:elevation="20dp"
+        android:translationZ="50dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
 
-<!--        <RelativeLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:elevation="7dp"-->
-<!--            android:translationZ="3dp">-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="7dp"
+            android:translationZ="3dp">
 
-<!--            <ImageView-->
-<!--                android:id="@+id/imageMobile"-->
-<!--                android:layout_width="50dp"-->
-<!--                android:layout_height="50dp"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="11dp"-->
-<!--                android:layout_marginTop="18dp"-->
-<!--                android:src="@drawable/web" />-->
+            <ImageView
+                android:id="@+id/imageMobile"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/web" />
 
-<!--            <TextView-->
-<!--                android:id="@+id/textMobile"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="38dp"-->
-<!--                android:layout_marginTop="30dp"-->
-<!--                android:layout_toEndOf="@+id/imageMobile"-->
-<!--                android:fontFamily="@font/poppins_bold"-->
-<!--                android:text="@string/web_developer"-->
-<!--                android:textColor="@color/black" />-->
-<!--        </RelativeLayout>-->
+            <TextView
+                android:id="@+id/textMobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/imageMobile"
+                android:text="@string/web_developer"
+                android:textColor="#000000" />
+        </RelativeLayout>
 
 
-<!--    </androidx.cardview.widget.CardView>-->
+    </androidx.cardview.widget.CardView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,206 +1,202 @@
 [
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_ic_baseline_logout.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/ic_baseline_logout.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_ic_baseline_logout.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\ic_baseline_logout.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_bg_button.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/bg_button.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_roundedcourner.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\roundedcourner.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/layout_activity_main.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\layout_fragment_register.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\fragment_register.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.c22_054.apploker.app-main-7:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_ic_baseline_remove_red_eye_24.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\ic_baseline_remove_red_eye_24.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.c22_054.apploker.app-main-7:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-pngs-44:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.c22_054.apploker.app-main-7:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\fragment_home.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/layout_fragment_register.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/layout/fragment_register.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\layout_fragment_login.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\fragment_login.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\font_poppins_semibold.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\font\\poppins_semibold.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/layout_fragment_category.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/layout/fragment_category.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\layout_fragment_edit_profile.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\fragment_edit_profile.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_ic_baseline_arrow_back.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/ic_baseline_arrow_back.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_bg_category3.png.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/bg_category3.png"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\layout_fragment_list.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\fragment_list.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.c22_054.apploker.app-main-7:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/layout_fragment_home.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\font_poppins_bold.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\font\\poppins_bold.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_ic_baseline_arrow_forward.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/ic_baseline_arrow_forward.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\layout_fragment_category.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\fragment_category.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_ic_baseline_category.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/ic_baseline_category.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_ic_baseline_about.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/ic_baseline_about.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_bg_item.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\bg_item.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_rectangle_1.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/rectangle_1.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.c22_054.apploker.app-main-7:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_bg_category.png.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\bg_category.png"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/layout_activity_splash_screen.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_ic_baseline_home.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/ic_baseline_home.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\menu_bottom_nav_menu.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\menu\\bottom_nav_menu.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/navigation_mobile_navigation.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/navigation/mobile_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_ic_baseline_list.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/ic_baseline_list.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_web.png.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\web.png"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/font_poppins_semibold.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/font/poppins_semibold.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_ic_baseline_arrow_back.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\ic_baseline_arrow_back.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.c22_054.apploker.app-main-7:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/layout_fragment_profile.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/layout/fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\layout_activity_splash_screen.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\activity_splash_screen.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.c22_054.apploker.app-main-7:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\navigation_mobile_navigation.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\navigation\\mobile_navigation.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_roundedcourner.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/roundedcourner.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_ic_baseline_home.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\ic_baseline_home.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_web.png.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/web.png"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_ic_baseline_person.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\ic_baseline_person.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/layout_fragment_list.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/layout/fragment_list.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_ic_baseline_category.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\ic_baseline_category.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable-nodpi_logo.png.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable-nodpi/logo.png"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/xml_backup_rules.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_ic_baseline_list.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\ic_baseline_list.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.c22_054.apploker.app-merged_res-49:/layout_fragment_home.xml.flat",
-        "source": "com.c22_054.apploker.app-main-51:/layout/fragment_home.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/xml_data_extraction_rules.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_bg_category3.png.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\bg_category3.png"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.c22_054.apploker.app-main-7:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\xml\\backup_rules.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_ic_baseline_remove_red_eye_24.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/ic_baseline_remove_red_eye_24.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable-nodpi_logo.png.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable-nodpi\\logo.png"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.c22_054.apploker.app-main-7:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_profile.png.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\profile.png"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_profile.png.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/profile.png"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.c22_054.apploker.app-pngs-0:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/layout_fragment_edit_profile.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/layout/fragment_edit_profile.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_myrect.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\myrect.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/menu/bottom_nav_menu.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_bg_button.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\bg_button.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/layout_fragment_login.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/layout/fragment_login.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/layout_item_row_category.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/layout/item_row_category.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_bg_category2.png.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\bg_category2.png"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/font_poppins_bold.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/font/poppins_bold.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_ic_baseline_about.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\ic_baseline_about.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_bg_item.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/bg_item.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\layout_fragment_profile.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\fragment_profile.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_bg_category2.png.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/bg_category2.png"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\activity_main.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_bg_category.png.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/bg_category.png"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_ic_baseline_arrow_forward.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\ic_baseline_arrow_forward.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_ic_baseline_person.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/ic_baseline_person.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\xml\\data_extraction_rules.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/drawable_myrect.xml.flat",
+        "source": "com.c22_054.apploker.app-main-7:/drawable/myrect.xml"
     },
     {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\layout_item_row_category.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\item_row_category.xml"
-    },
-    {
-        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-merged_res-49:\\drawable_rectangle_1.xml.flat",
-        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\drawable\\rectangle_1.xml"
+        "merged": "com.c22_054.apploker.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.c22_054.apploker.app-main-7:/mipmap-xxxhdpi/ic_launcher_round.webp"
     }
 ]

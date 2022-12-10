@@ -44,6 +44,7 @@ drawable web
 font poppins_bold
 font poppins_semibold
 id about_app
+id aploker
 id btn_buat
 id btn_kembali
 id buat_akun
@@ -55,6 +56,7 @@ id edt_telp
 id email
 id eye
 id guideline
+id imageMobile
 id imageView
 id imageView2
 id imageView3
@@ -67,6 +69,7 @@ id iv_profile
 id loading
 id login
 id logout
+id mobileCard
 id mobile_navigation
 id nav_host_fragment_activity_main
 id nav_view
@@ -84,6 +87,7 @@ id teks_login
 id teks_namalengkap
 id teks_password
 id teks_username
+id textMobile
 id textView
 id textView11
 id textView12
