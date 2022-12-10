@@ -4,10 +4,12 @@ package com.c22_054.apploker.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.constraintlayout.widget.Guideline;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.c22_054.apploker.R;
@@ -20,11 +22,50 @@ public final class FragmentProfileBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextView aboutApp;
+
+  @NonNull
+  public final TextView editProfile;
+
+  @NonNull
+  public final Guideline guideline;
+
+  @NonNull
+  public final ImageView ivProfile;
+
+  @NonNull
+  public final TextView logout;
+
+  @NonNull
+  public final TextView tvEmailProfile;
+
+  @NonNull
   public final TextView tvProfile;
 
-  private FragmentProfileBinding(@NonNull ConstraintLayout rootView, @NonNull TextView tvProfile) {
+  @NonNull
+  public final View view;
+
+  @NonNull
+  public final View view2;
+
+  @NonNull
+  public final View view3;
+
+  private FragmentProfileBinding(@NonNull ConstraintLayout rootView, @NonNull TextView aboutApp,
+      @NonNull TextView editProfile, @NonNull Guideline guideline, @NonNull ImageView ivProfile,
+      @NonNull TextView logout, @NonNull TextView tvEmailProfile, @NonNull TextView tvProfile,
+      @NonNull View view, @NonNull View view2, @NonNull View view3) {
     this.rootView = rootView;
+    this.aboutApp = aboutApp;
+    this.editProfile = editProfile;
+    this.guideline = guideline;
+    this.ivProfile = ivProfile;
+    this.logout = logout;
+    this.tvEmailProfile = tvEmailProfile;
     this.tvProfile = tvProfile;
+    this.view = view;
+    this.view2 = view2;
+    this.view3 = view3;
   }
 
   @Override
@@ -54,13 +95,68 @@ public final class FragmentProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.about_app;
+      TextView aboutApp = ViewBindings.findChildViewById(rootView, id);
+      if (aboutApp == null) {
+        break missingId;
+      }
+
+      id = R.id.edit_profile;
+      TextView editProfile = ViewBindings.findChildViewById(rootView, id);
+      if (editProfile == null) {
+        break missingId;
+      }
+
+      id = R.id.guideline;
+      Guideline guideline = ViewBindings.findChildViewById(rootView, id);
+      if (guideline == null) {
+        break missingId;
+      }
+
+      id = R.id.iv_profile;
+      ImageView ivProfile = ViewBindings.findChildViewById(rootView, id);
+      if (ivProfile == null) {
+        break missingId;
+      }
+
+      id = R.id.logout;
+      TextView logout = ViewBindings.findChildViewById(rootView, id);
+      if (logout == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_email_profile;
+      TextView tvEmailProfile = ViewBindings.findChildViewById(rootView, id);
+      if (tvEmailProfile == null) {
+        break missingId;
+      }
+
       id = R.id.tv_profile;
       TextView tvProfile = ViewBindings.findChildViewById(rootView, id);
       if (tvProfile == null) {
         break missingId;
       }
 
-      return new FragmentProfileBinding((ConstraintLayout) rootView, tvProfile);
+      id = R.id.view;
+      View view = ViewBindings.findChildViewById(rootView, id);
+      if (view == null) {
+        break missingId;
+      }
+
+      id = R.id.view2;
+      View view2 = ViewBindings.findChildViewById(rootView, id);
+      if (view2 == null) {
+        break missingId;
+      }
+
+      id = R.id.view3;
+      View view3 = ViewBindings.findChildViewById(rootView, id);
+      if (view3 == null) {
+        break missingId;
+      }
+
+      return new FragmentProfileBinding((ConstraintLayout) rootView, aboutApp, editProfile,
+          guideline, ivProfile, logout, tvEmailProfile, tvProfile, view, view2, view3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -8,7 +8,7 @@
     tools:context=".ui.home.HomeFragment">
 
 
-    <SearchView
+    <androidx.appcompat.widget.SearchView
         android:id="@+id/search_bar"
         android:layout_width="333dp"
         android:layout_height="28dp"

@@ -17,18 +17,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/aploker"
-        android:layout_width="145dp"
-        android:layout_height="46dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:gravity="center_horizontal|center_vertical"
-        android:text="@string/aploker"
-        android:textAppearance="@style/aploker"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/image_spalash"
-        app:layout_constraintStart_toStartOf="@+id/image_spalash"
-        app:layout_constraintTop_toBottomOf="@+id/image_spalash" />
+<!--    <TextView-->
+<!--        android:id="@+id/aploker"-->
+<!--        android:layout_width="145dp"-->
+<!--        android:layout_height="46dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="150dp"-->
+<!--        android:gravity="center_horizontal|center_vertical"-->
+<!--        android:text="@string/aploker"-->
+<!--        android:textAppearance="@style/aploker"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/image_spalash"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/image_spalash"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/image_spalash" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

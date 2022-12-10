@@ -153,7 +153,7 @@
         android:text="@string/belum_punya"
         android:textAppearance="@style/font2"
         app:layout_constraintStart_toStartOf="@+id/password"
-        app:layout_constraintTop_toBottomOf="@+id/btn_masuk" />
+        app:layout_constraintTop_toBottomOf="@+id/login" />
 
     <TextView
         android:id="@+id/daftar"
@@ -164,7 +164,7 @@
         android:textAppearance="@style/font2"
         android:textColor="#002FD3"
         app:layout_constraintEnd_toEndOf="@+id/password"
-        app:layout_constraintTop_toBottomOf="@+id/btn_masuk" />
+        app:layout_constraintTop_toBottomOf="@+id/login" />
 
     <ImageView
         android:id="@+id/eye"
@@ -179,7 +179,7 @@
         app:layout_constraintTop_toTopOf="@+id/password" />
 
     <Button
-        android:id="@+id/btn_masuk"
+        android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"

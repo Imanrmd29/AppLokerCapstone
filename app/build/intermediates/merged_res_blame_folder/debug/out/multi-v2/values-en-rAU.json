@@ -1,27 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "com.c22_054.apploker.app-mergeDebugResources-48:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.c22_054.apploker.app-mergeDebugResources-47:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
-                    "source": "/home/imanrmd/.gradle/caches/transforms-3/cbd2cea7a41c8b4414f86c37a63fa3c1/transformed/core-1.8.0/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "C:\\Users\\lenov\\.gradle\\caches\\transforms-3\\0055b77055b93dfd2c27a8cd89103b86\\transformed\\navigation-ui-2.5.3\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,161",
+                        "endColumns": "105,116",
+                        "endOffsets": "156,273"
                     },
                     "to": {
-                        "startLines": "32",
-                        "startColumns": "4",
-                        "startOffsets": "3068",
-                        "endColumns": "100",
-                        "endOffsets": "3164"
+                        "startLines": "29,30",
+                        "startColumns": "4,4",
+                        "startOffsets": "2762,2868",
+                        "endColumns": "105,116",
+                        "endOffsets": "2863,2980"
                     }
                 },
                 {
-                    "source": "/home/imanrmd/.gradle/caches/transforms-3/68ee75195f0df5ad8d472ec660be41c8/transformed/appcompat-1.5.1/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "C:\\Users\\lenov\\.gradle\\caches\\transforms-3\\fc1f82018352b0cb2503b51beb61b53f\\transformed\\appcompat-1.5.1\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,20 +38,20 @@
                     }
                 },
                 {
-                    "source": "/home/imanrmd/.gradle/caches/transforms-3/ff5d09f98f0bbe1b4993388238435419/transformed/navigation-ui-2.5.3/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "C:\\Users\\lenov\\.gradle\\caches\\transforms-3\\319818de8066db9dee1015fa48896948\\transformed\\core-1.8.0\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,161",
-                        "endColumns": "105,116",
-                        "endOffsets": "156,273"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "29,30",
-                        "startColumns": "4,4",
-                        "startOffsets": "2762,2868",
-                        "endColumns": "105,116",
-                        "endOffsets": "2863,2980"
+                        "startLines": "32",
+                        "startColumns": "4",
+                        "startOffsets": "3068",
+                        "endColumns": "100",
+                        "endOffsets": "3164"
                     }
                 }
             ]
