@@ -16,6 +16,11 @@
         android:theme="@style/Theme.AppLoker"
         tools:targetApi="31">
         <activity
+            android:name=".ui.succesplay.SuccesPlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:theme="@style/Theme.AppLoker.Fullscreen" />
+        <activity
             android:name=".ui.about.AboutActivity"
             android:exported="false">
             <meta-data
