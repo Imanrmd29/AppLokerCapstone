@@ -94,8 +94,8 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/60dcc41f5d5b7240c632ad8df0c7ac21/transformed/exifinterface-1.3.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/86120dc2830ae94787ee6a31179d92df/transformed/ssp-android-1.0.6-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/f3830d38df4ec54610e04f7a54d5a63c/transformed/sdp-android-1.0.6-api.jar</arg>
-                <arg>E:/sdk/platforms/android-32/android.jar</arg>
-                <arg>E:/sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
+                <arg>$USER_HOME$/Android/Sdk/platforms/android-32/android.jar</arg>
+                <arg>$USER_HOME$/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
               </args>
             </stringArg>
             <stringArg name="destination" arg="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debugUnitTest" />

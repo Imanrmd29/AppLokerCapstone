@@ -48,5 +48,7 @@
         <item>Laki - laki</item>
         <item>Perempuan</item>
     </string-array>
+    <string name="teks_hasil_pencarian">Hasil Pencarian</string>
+    <string name="tune">tune</string>
 
 </resources>
