@@ -50,11 +50,7 @@
     </string-array>
     <string name="teks_hasil_pencarian">Hasil Pencarian</string>
     <string name="tune">tune</string>
-    <string name="upload_file">UPLOAD FILE</string>
-    <string name="teks_cv">Curiculume Vitae</string>
-    <string name="btn_ajukan">Ajukan</string>
-    <string name="succes_play">BERHASIL MENGIRIM LAMARAN</string>
-    <string name="selesai">Selesai</string>
-
+    <string name="daflok">Daftar Lowongan</string>
+    <string name="app_developer">Mobile Developer</string>
 
 </resources>
