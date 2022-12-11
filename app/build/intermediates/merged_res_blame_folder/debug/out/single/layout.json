@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.c22_054.apploker.app-mergeDebugResources-52:/layout/fragment_upload_file.xml",
+        "source": "com.c22_054.apploker.app-main-55:/layout/fragment_upload_file.xml"
+    },
+    {
         "merged": "com.c22_054.apploker.app-mergeDebugResources-52:/layout/fragment_search.xml",
         "source": "com.c22_054.apploker.app-main-55:/layout/fragment_search.xml"
     },
@@ -10,6 +14,10 @@
     {
         "merged": "com.c22_054.apploker.app-mergeDebugResources-52:/layout/fragment_profile.xml",
         "source": "com.c22_054.apploker.app-main-55:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.c22_054.apploker.app-mergeDebugResources-52:/layout/activity_succes_play.xml",
+        "source": "com.c22_054.apploker.app-main-55:/layout/activity_succes_play.xml"
     },
     {
         "merged": "com.c22_054.apploker.app-mergeDebugResources-52:/layout/fragment_category.xml",
@@ -62,5 +70,9 @@
     {
         "merged": "com.c22_054.apploker.app-mergeDebugResources-52:/layout/fragment_ux.xml",
         "source": "com.c22_054.apploker.app-main-55:/layout/fragment_ux.xml"
+    },
+    {
+        "merged": "com.c22_054.apploker.app-mergeDebugResources-52:/layout/item_home_horizontal.xml",
+        "source": "com.c22_054.apploker.app-main-55:/layout/item_home_horizontal.xml"
     }
 ]

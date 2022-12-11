@@ -52,5 +52,10 @@
     <string name="tune">tune</string>
     <string name="daflok">Daftar Lowongan</string>
     <string name="app_developer">Mobile Developer</string>
+    <string name="succes_play">Sukses</string>
+    <string name="selesai">Selesai</string>
+    <string name="upload_file">Upload File</string>
+    <string name="teks_cv">CV</string>
+    <string name="btn_ajukan">Apply</string>
 
 </resources>

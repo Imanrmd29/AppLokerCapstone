@@ -23,7 +23,12 @@
     </array>
     <color name="abu_abu">#949494</color>
     <color name="black">#FF000000</color>
+    <color name="black_overlay">#66000000</color>
     <color name="emas">#FFAA01</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -40,12 +45,15 @@
     <string name="action_sign_in_short">Sign in</string>
     <string name="alamat_email">Alamat Email</string>
     <string name="aploker">APLOKER</string>
+    <string name="app_developer">Mobile Developer</string>
     <string name="app_name">AppLoker</string>
     <string name="belum_punya">Belum punya akun?</string>
+    <string name="btn_ajukan">Apply</string>
     <string name="btn_buat">Buat</string>
     <string name="btn_kembali">Kembali</string>
     <string name="btn_masuk">Masuk</string>
     <string name="buat_akun">BUAT AKUN</string>
+    <string name="daflok">Daftar Lowongan</string>
     <string name="edit_profile">Edit Profile</string>
     <string name="email">Email</string>
     <string name="foto_perusahaan">Foto Perusahaan</string>
@@ -65,8 +73,11 @@
     <string name="password">Password</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
+    <string name="selesai">Selesai</string>
     <string name="simpan">Simpan</string>
+    <string name="succes_play">Sukses</string>
     <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="teks_cv">CV</string>
     <string name="teks_daftar">Daftar</string>
     <string name="teks_hasil_pencarian">Hasil Pencarian</string>
     <string name="teks_masuk">Masuk</string>
@@ -76,6 +87,7 @@
     <string name="title_profile">Profile</string>
     <string name="tune">tune</string>
     <string name="ui_ux_designer">UI/UX Designer</string>
+    <string name="upload_file">Upload File</string>
     <string name="username">Username</string>
     <string name="web_developer">Web Developer</string>
     <string name="welcome">"Welcome!"</string>
@@ -91,6 +103,22 @@
         
         <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
         
+    </style>
+    <style name="Theme.AppLoker.Fullscreen" parent="Theme.AppLoker">
+        <item name="android:actionBarStyle">@style/Widget.Theme.AppLoker.ActionBar.Fullscreen</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="ThemeOverlay.AppLoker.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+    <style name="Widget.Theme.AppLoker.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+    <style name="Widget.Theme.AppLoker.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
     </style>
     <style name="aploker">
         <item name="android:textSize">19sp</item>
@@ -130,4 +158,8 @@
         <item name="android:shadowDy">4</item>
         <item name="android:shadowRadius">4</item>
     </style>
+    <declare-styleable name="FullscreenAttrs">
+        <attr format="color" name="fullscreenBackgroundColor"/>
+        <attr format="color" name="fullscreenTextColor"/>
+    </declare-styleable>
 </resources>

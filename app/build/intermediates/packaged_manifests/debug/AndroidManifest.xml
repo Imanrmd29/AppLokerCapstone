@@ -6,9 +6,15 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="32" />
+        android:targetSdkVersion="33" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+
+    <permission
+        android:name="com.c22_054.apploker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.c22_054.apploker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -22,6 +28,11 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppLoker" >
+        <activity
+            android:name="com.c22_054.apploker.ui.succesplay.SuccesPlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:theme="@style/Theme.AppLoker.Fullscreen" />
         <activity
             android:name="com.c22_054.apploker.ui.about.AboutActivity"
             android:exported="false" >

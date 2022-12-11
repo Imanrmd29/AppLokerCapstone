@@ -5,12 +5,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.SearchView;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.c22_054.apploker.R;
@@ -20,33 +21,46 @@ import java.lang.String;
 
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
-  public final RelativeLayout categoryNavigation;
+  public final ImageView ivProfil;
 
   @NonNull
-  public final ImageView profileView;
+  public final RecyclerView listCategory;
+
+  @NonNull
+  public final RecyclerView listPerusahaan;
 
   @NonNull
   public final SearchView searchBar;
 
   @NonNull
-  public final TextView textView4;
+  public final SwipeRefreshLayout swipeCategory;
 
-  private FragmentHomeBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RelativeLayout categoryNavigation, @NonNull ImageView profileView,
-      @NonNull SearchView searchBar, @NonNull TextView textView4) {
+  @NonNull
+  public final SwipeRefreshLayout swipeRefresh;
+
+  @NonNull
+  public final TextView textView13;
+
+  private FragmentHomeBinding(@NonNull LinearLayout rootView, @NonNull ImageView ivProfil,
+      @NonNull RecyclerView listCategory, @NonNull RecyclerView listPerusahaan,
+      @NonNull SearchView searchBar, @NonNull SwipeRefreshLayout swipeCategory,
+      @NonNull SwipeRefreshLayout swipeRefresh, @NonNull TextView textView13) {
     this.rootView = rootView;
-    this.categoryNavigation = categoryNavigation;
-    this.profileView = profileView;
+    this.ivProfil = ivProfil;
+    this.listCategory = listCategory;
+    this.listPerusahaan = listPerusahaan;
     this.searchBar = searchBar;
-    this.textView4 = textView4;
+    this.swipeCategory = swipeCategory;
+    this.swipeRefresh = swipeRefresh;
+    this.textView13 = textView13;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -71,15 +85,21 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.categoryNavigation;
-      RelativeLayout categoryNavigation = ViewBindings.findChildViewById(rootView, id);
-      if (categoryNavigation == null) {
+      id = R.id.iv_profil;
+      ImageView ivProfil = ViewBindings.findChildViewById(rootView, id);
+      if (ivProfil == null) {
         break missingId;
       }
 
-      id = R.id.profileView;
-      ImageView profileView = ViewBindings.findChildViewById(rootView, id);
-      if (profileView == null) {
+      id = R.id.list_category;
+      RecyclerView listCategory = ViewBindings.findChildViewById(rootView, id);
+      if (listCategory == null) {
+        break missingId;
+      }
+
+      id = R.id.list_perusahaan;
+      RecyclerView listPerusahaan = ViewBindings.findChildViewById(rootView, id);
+      if (listPerusahaan == null) {
         break missingId;
       }
 
@@ -89,14 +109,26 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView4;
-      TextView textView4 = ViewBindings.findChildViewById(rootView, id);
-      if (textView4 == null) {
+      id = R.id.swipe_category;
+      SwipeRefreshLayout swipeCategory = ViewBindings.findChildViewById(rootView, id);
+      if (swipeCategory == null) {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ConstraintLayout) rootView, categoryNavigation, profileView,
-          searchBar, textView4);
+      id = R.id.swipe_refresh;
+      SwipeRefreshLayout swipeRefresh = ViewBindings.findChildViewById(rootView, id);
+      if (swipeRefresh == null) {
+        break missingId;
+      }
+
+      id = R.id.textView13;
+      TextView textView13 = ViewBindings.findChildViewById(rootView, id);
+      if (textView13 == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((LinearLayout) rootView, ivProfil, listCategory,
+          listPerusahaan, searchBar, swipeCategory, swipeRefresh, textView13);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -564,6 +564,8 @@ attr fontWeight
 attr forceApplySystemWindowInsetTop
 attr foregroundInsidePadding
 attr framePosition
+attr fullscreenBackgroundColor
+attr fullscreenTextColor
 attr gapBetweenBars
 attr gestureInsetBottomIgnored
 attr goIcon
@@ -1320,6 +1322,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color black_overlay
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1381,6 +1384,10 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color light_blue_600
+color light_blue_900
+color light_blue_A200
+color light_blue_A400
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -3369,6 +3376,7 @@ drawable bg_category2
 drawable bg_category3
 drawable bg_item
 drawable bg_navigation
+drawable btn_back
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3386,12 +3394,14 @@ drawable ic_baseline_about
 drawable ic_baseline_arrow_back
 drawable ic_baseline_arrow_forward
 drawable ic_baseline_category
+drawable ic_baseline_check_circle_24
 drawable ic_baseline_home
 drawable ic_baseline_list
 drawable ic_baseline_logout
 drawable ic_baseline_person
 drawable ic_baseline_remove_red_eye_24
 drawable ic_baseline_tune_24
+drawable ic_baseline_upload_file_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -3474,6 +3484,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable profile
+drawable rectangle2
 drawable rectangle_1
 drawable roundedcourner
 drawable test_level_drawable
@@ -3596,7 +3607,6 @@ id callMeasure
 id cancel_button
 id card_view
 id carryVelocity
-id categoryNavigation
 id center
 id centerCrop
 id centerInside
@@ -3631,6 +3641,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id cv
 id daftar
 id date_picker_actions
 id decelerate
@@ -3726,6 +3737,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton
 id imageView
 id image_button_mobile
 id image_button_ux
@@ -3739,8 +3751,12 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id ivMobile
+id ivUiux
+id ivWeb
 id iv_edit_profile
 id iv_perusahaan
+id iv_profil
 id iv_profile
 id jumpToEnd
 id jumpToStart
@@ -3754,6 +3770,7 @@ id line3
 id line_separator
 id linear
 id listMode
+id list_category
 id list_item
 id list_perusahaan
 id loading
@@ -3945,7 +3962,9 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id succes
 id supportScrollUp
+id swipe_category
 id swipe_refresh
 id tabMode
 id tag_accessibility_actions
@@ -3962,10 +3981,12 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
 id teks_belumpunya
+id teks_cv
 id teks_email
 id teks_login
 id teks_namalengkap
 id teks_password
+id teks_uploadfile
 id teks_username
 id text
 id text2
@@ -3977,6 +3998,9 @@ id textTop
 id textView
 id textView10
 id textView11
+id textView12
+id textView13
+id textView14
 id textView2
 id textView3
 id textView4
@@ -4010,6 +4034,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvMobile
+id tvUiux
 id tv_daerah
 id tv_email_profile
 id tv_perusahaan
@@ -4170,6 +4196,7 @@ layout activity_about
 layout activity_login
 layout activity_main
 layout activity_splash_screen
+layout activity_succes_play
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -4196,8 +4223,10 @@ layout fragment_mobile
 layout fragment_profile
 layout fragment_register
 layout fragment_search
+layout fragment_upload_file
 layout fragment_ux
 layout fragment_web_dev
+layout item_home_horizontal
 layout item_row_category
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -4298,6 +4327,7 @@ string action_sign_in_short
 string alamat_email
 string androidx_startup
 string aploker
+string app_developer
 string app_name
 string appbar_scrolling_view_behavior
 string belum_punya
@@ -4307,6 +4337,7 @@ string bottomsheet_action_expand
 string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
+string btn_ajukan
 string btn_buat
 string btn_kembali
 string btn_masuk
@@ -4315,6 +4346,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string daflok
 string edit_profile
 string email
 string error_a11y_label
@@ -4437,9 +4469,12 @@ string path_password_strike_through
 string prompt_email
 string prompt_password
 string search_menu_title
+string selesai
 string simpan
 string status_bar_notification_info_overflow
+string succes_play
 string tanggal_lahir
+string teks_cv
 string teks_daftar
 string teks_hasil_pencarian
 string teks_masuk
@@ -4449,6 +4484,7 @@ string title_list
 string title_profile
 string tune
 string ui_ux_designer
+string upload_file
 string username
 string web_developer
 string welcome
@@ -4960,6 +4996,7 @@ style Theme_AppCompat_Light_DialogWhenLarge
 style Theme_AppCompat_Light_NoActionBar
 style Theme_AppCompat_NoActionBar
 style Theme_AppLoker
+style Theme_AppLoker_Fullscreen
 style Theme_Design
 style Theme_Design_BottomSheetDialog
 style Theme_Design_Light
@@ -5046,6 +5083,7 @@ style ThemeOverlay_AppCompat_DayNight_ActionBar
 style ThemeOverlay_AppCompat_Dialog
 style ThemeOverlay_AppCompat_Dialog_Alert
 style ThemeOverlay_AppCompat_Light
+style ThemeOverlay_AppLoker_FullscreenContainer
 style ThemeOverlay_Design_TextInputEditText
 style ThemeOverlay_Material3
 style ThemeOverlay_Material3_ActionBar
@@ -5503,6 +5541,8 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style Widget_Theme_AppLoker_ActionBar_Fullscreen
+style Widget_Theme_AppLoker_ButtonBar_Fullscreen
 style aploker
 style font1
 style font2
@@ -5572,6 +5612,7 @@ styleable ForegroundLinearLayout android_foreground android_foregroundGravity fo
 styleable Fragment android_name android_id android_tag
 styleable FragmentContainerView android_name android_tag
 styleable FragmentNavigator android_name
+styleable FullscreenAttrs fullscreenBackgroundColor fullscreenTextColor
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable ImageFilterView altSrc blendSrc brightness contrast crossfade imagePanX imagePanY imageRotate imageZoom overlay round roundPercent saturation warmth

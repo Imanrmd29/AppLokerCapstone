@@ -108,7 +108,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/7d3df24b28ba25713356a29cf0faf358/transformed/exifinterface-1.3.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/45cf6118ec156d78128c98d2b20d21ce/transformed/ssp-android-1.0.6-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/f3d971004841202cbfa8a151598c7a53/transformed/sdp-android-1.0.6-api.jar</arg>
-                <arg>E:/sdk/platforms/android-32/android.jar</arg>
+                <arg>E:/sdk/platforms/android-33/android.jar</arg>
                 <arg>E:/sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
               </args>
             </stringArg>

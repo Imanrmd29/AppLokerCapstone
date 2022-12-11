@@ -94,7 +94,7 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.14.2/543524781bc197fb64e1c2df1756a8ec17ff05ba/disklrucache-4.14.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.14.2/57e84ef841035701766b7d74236d04c65cfa4248/annotations-4.14.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/7d3df24b28ba25713356a29cf0faf358/transformed/exifinterface-1.3.3-api.jar</arg>
-                <arg>E:/sdk/platforms/android-32/android.jar</arg>
+                <arg>E:/sdk/platforms/android-33/android.jar</arg>
                 <arg>E:/sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
               </args>
             </stringArg>
