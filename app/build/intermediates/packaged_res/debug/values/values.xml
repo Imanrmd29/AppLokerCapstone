@@ -68,11 +68,13 @@
     <string name="simpan">Simpan</string>
     <string name="tanggal_lahir">Tanggal Lahir</string>
     <string name="teks_daftar">Daftar</string>
+    <string name="teks_hasil_pencarian">Hasil Pencarian</string>
     <string name="teks_masuk">Masuk</string>
     <string name="title_category">Category</string>
     <string name="title_home">Home</string>
     <string name="title_list">List</string>
     <string name="title_profile">Profile</string>
+    <string name="tune">tune</string>
     <string name="ui_ux_designer">UI/UX Designer</string>
     <string name="username">Username</string>
     <string name="web_developer">Web Developer</string>

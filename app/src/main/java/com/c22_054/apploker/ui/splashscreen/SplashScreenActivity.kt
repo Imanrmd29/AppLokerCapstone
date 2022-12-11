@@ -7,6 +7,7 @@ import android.os.Handler
 import android.os.Looper
 import com.c22_054.apploker.MainActivity
 import com.c22_054.apploker.R
+import com.c22_054.apploker.ui.login.LoginActivity
 
 class SplashScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,8 +17,8 @@ class SplashScreenActivity : AppCompatActivity() {
         supportActionBar?.hide()
 
         Handler(Looper.getMainLooper()).postDelayed({
-            startActivity(Intent(this@SplashScreenActivity, MainActivity::class.java))
-                finish()
+            startActivity(Intent(this@SplashScreenActivity, LoginActivity::class.java))
+            finish()
 
         },3000)
     }

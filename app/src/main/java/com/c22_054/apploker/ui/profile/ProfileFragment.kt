@@ -1,5 +1,6 @@
 package com.c22_054.apploker.ui.profile
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -10,6 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.c22_054.apploker.R
 import com.c22_054.apploker.databinding.FragmentProfileBinding
+import com.c22_054.apploker.ui.about.AboutActivity
 
 
 class ProfileFragment : Fragment() {
@@ -40,6 +42,9 @@ class ProfileFragment : Fragment() {
                 setReorderingAllowed(true)
                 commit()
             }
+        }
+        binding.aboutApp.setOnClickListener {
+            startActivity(Intent(activity, AboutActivity::class.java))
         }
         (activity as AppCompatActivity?)!!.supportActionBar!!.hide()
         val textView: TextView = binding.tvProfile
