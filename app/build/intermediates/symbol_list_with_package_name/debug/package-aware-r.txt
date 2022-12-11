@@ -3368,6 +3368,7 @@ drawable bg_category
 drawable bg_category2
 drawable bg_category3
 drawable bg_item
+drawable bg_navigation
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3390,6 +3391,7 @@ drawable ic_baseline_list
 drawable ic_baseline_logout
 drawable ic_baseline_person
 drawable ic_baseline_remove_red_eye_24
+drawable ic_baseline_tune_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -3587,12 +3589,14 @@ id btn_simpan
 id buat_akun
 id button
 id button2
+id button3
 id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
 id card_view
 id carryVelocity
+id categoryNavigation
 id center
 id centerCrop
 id centerInside
@@ -3722,9 +3726,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageMobile
-id imageView4
-id imageWeb
+id imageView
 id image_button_mobile
 id image_button_ux
 id image_button_webDev
@@ -3785,7 +3787,6 @@ id matrix
 id message
 id middle
 id mini
-id mobileCard
 id mobile_navigation
 id month_grid
 id month_navigation_bar
@@ -3866,6 +3867,7 @@ id pin
 id position
 id postLayout
 id pressed
+id profileView
 id progress_circular
 id progress_horizontal
 id radio
@@ -3968,12 +3970,12 @@ id teks_username
 id text
 id text2
 id textEnd
-id textMobile
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView10
 id textView11
 id textView2
 id textView3
@@ -3983,7 +3985,6 @@ id textView6
 id textView7
 id textView8
 id textView9
-id textWeb
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -4024,6 +4025,7 @@ id vertical_only
 id view
 id view2
 id view3
+id view4
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -4032,7 +4034,6 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
-id webCard
 id west
 id withText
 id with_icon
@@ -4165,6 +4166,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_about
+layout activity_login
 layout activity_main
 layout activity_splash_screen
 layout custom_dialog
@@ -4192,6 +4195,7 @@ layout fragment_login
 layout fragment_mobile
 layout fragment_profile
 layout fragment_register
+layout fragment_search
 layout fragment_ux
 layout fragment_web_dev
 layout item_row_category
@@ -4437,11 +4441,13 @@ string simpan
 string status_bar_notification_info_overflow
 string tanggal_lahir
 string teks_daftar
+string teks_hasil_pencarian
 string teks_masuk
 string title_category
 string title_home
 string title_list
 string title_profile
+string tune
 string ui_ux_designer
 string username
 string web_developer

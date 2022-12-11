@@ -5,11 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.SearchView;
-import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -23,46 +23,25 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView imageMobile;
+  public final RelativeLayout categoryNavigation;
 
   @NonNull
-  public final ImageView imageView4;
-
-  @NonNull
-  public final ImageView imageWeb;
-
-  @NonNull
-  public final CardView mobileCard;
+  public final ImageView profileView;
 
   @NonNull
   public final SearchView searchBar;
 
   @NonNull
-  public final TextView textMobile;
-
-  @NonNull
   public final TextView textView4;
 
-  @NonNull
-  public final TextView textWeb;
-
-  @NonNull
-  public final CardView webCard;
-
-  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageMobile,
-      @NonNull ImageView imageView4, @NonNull ImageView imageWeb, @NonNull CardView mobileCard,
-      @NonNull SearchView searchBar, @NonNull TextView textMobile, @NonNull TextView textView4,
-      @NonNull TextView textWeb, @NonNull CardView webCard) {
+  private FragmentHomeBinding(@NonNull ConstraintLayout rootView,
+      @NonNull RelativeLayout categoryNavigation, @NonNull ImageView profileView,
+      @NonNull SearchView searchBar, @NonNull TextView textView4) {
     this.rootView = rootView;
-    this.imageMobile = imageMobile;
-    this.imageView4 = imageView4;
-    this.imageWeb = imageWeb;
-    this.mobileCard = mobileCard;
+    this.categoryNavigation = categoryNavigation;
+    this.profileView = profileView;
     this.searchBar = searchBar;
-    this.textMobile = textMobile;
     this.textView4 = textView4;
-    this.textWeb = textWeb;
-    this.webCard = webCard;
   }
 
   @Override
@@ -92,27 +71,15 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageMobile;
-      ImageView imageMobile = ViewBindings.findChildViewById(rootView, id);
-      if (imageMobile == null) {
+      id = R.id.categoryNavigation;
+      RelativeLayout categoryNavigation = ViewBindings.findChildViewById(rootView, id);
+      if (categoryNavigation == null) {
         break missingId;
       }
 
-      id = R.id.imageView4;
-      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView4 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageWeb;
-      ImageView imageWeb = ViewBindings.findChildViewById(rootView, id);
-      if (imageWeb == null) {
-        break missingId;
-      }
-
-      id = R.id.mobileCard;
-      CardView mobileCard = ViewBindings.findChildViewById(rootView, id);
-      if (mobileCard == null) {
+      id = R.id.profileView;
+      ImageView profileView = ViewBindings.findChildViewById(rootView, id);
+      if (profileView == null) {
         break missingId;
       }
 
@@ -122,32 +89,14 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textMobile;
-      TextView textMobile = ViewBindings.findChildViewById(rootView, id);
-      if (textMobile == null) {
-        break missingId;
-      }
-
       id = R.id.textView4;
       TextView textView4 = ViewBindings.findChildViewById(rootView, id);
       if (textView4 == null) {
         break missingId;
       }
 
-      id = R.id.textWeb;
-      TextView textWeb = ViewBindings.findChildViewById(rootView, id);
-      if (textWeb == null) {
-        break missingId;
-      }
-
-      id = R.id.webCard;
-      CardView webCard = ViewBindings.findChildViewById(rootView, id);
-      if (webCard == null) {
-        break missingId;
-      }
-
-      return new FragmentHomeBinding((ConstraintLayout) rootView, imageMobile, imageView4, imageWeb,
-          mobileCard, searchBar, textMobile, textView4, textWeb, webCard);
+      return new FragmentHomeBinding((ConstraintLayout) rootView, categoryNavigation, profileView,
+          searchBar, textView4);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
