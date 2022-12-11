@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.c22_054.apploker.databinding.FragmentCategoryBinding
@@ -23,7 +24,7 @@ class CategoryFragment : Fragment() {
     ): View {
         val categoryViewModel =
             ViewModelProvider(this)[CategoryViewModel::class.java]
-
+        (activity as AppCompatActivity?)!!.supportActionBar!!.hide()
         _binding = FragmentCategoryBinding.inflate(inflater, container, false)
 
         return binding.root

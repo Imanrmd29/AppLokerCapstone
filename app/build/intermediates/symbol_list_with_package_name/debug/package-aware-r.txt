@@ -3582,6 +3582,7 @@ id bounceEnd
 id bounceStart
 id btn_buat
 id btn_kembali
+id btn_simpan
 id buat_akun
 id button
 id buttonPanel
@@ -3659,7 +3660,11 @@ id easeOut
 id east
 id edit_profile
 id edit_query
+id edt_email
+id edt_email_text
+id edt_tanggal
 id edt_telp
+id edt_telp_text
 id elastic
 id email
 id embed
@@ -3963,13 +3968,11 @@ id textStart
 id textTop
 id textView
 id textView11
-id textView12
 id textView2
 id textView3
 id textView4
 id textView5
 id textView6
-id textView7
 id textView8
 id textView9
 id textWeb
