@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.c22_054.apploker.R;
@@ -18,24 +18,41 @@ import java.lang.String;
 
 public final class ItemRowCategoryBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final CardView rootView;
 
   @NonNull
-  public final ImageView ivCategory;
+  public final CardView cardView;
+
+  @NonNull
+  public final ImageView ivPerusahaan;
+
+  @NonNull
+  public final View lineSeparator;
+
+  @NonNull
+  public final TextView tvDaerah;
+
+  @NonNull
+  public final TextView tvPerusahaan;
 
   @NonNull
   public final TextView tvTitle;
 
-  private ItemRowCategoryBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView ivCategory,
-      @NonNull TextView tvTitle) {
+  private ItemRowCategoryBinding(@NonNull CardView rootView, @NonNull CardView cardView,
+      @NonNull ImageView ivPerusahaan, @NonNull View lineSeparator, @NonNull TextView tvDaerah,
+      @NonNull TextView tvPerusahaan, @NonNull TextView tvTitle) {
     this.rootView = rootView;
-    this.ivCategory = ivCategory;
+    this.cardView = cardView;
+    this.ivPerusahaan = ivPerusahaan;
+    this.lineSeparator = lineSeparator;
+    this.tvDaerah = tvDaerah;
+    this.tvPerusahaan = tvPerusahaan;
     this.tvTitle = tvTitle;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public CardView getRoot() {
     return rootView;
   }
 
@@ -60,9 +77,29 @@ public final class ItemRowCategoryBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.iv_category;
-      ImageView ivCategory = ViewBindings.findChildViewById(rootView, id);
-      if (ivCategory == null) {
+      CardView cardView = (CardView) rootView;
+
+      id = R.id.iv_perusahaan;
+      ImageView ivPerusahaan = ViewBindings.findChildViewById(rootView, id);
+      if (ivPerusahaan == null) {
+        break missingId;
+      }
+
+      id = R.id.line_separator;
+      View lineSeparator = ViewBindings.findChildViewById(rootView, id);
+      if (lineSeparator == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_daerah;
+      TextView tvDaerah = ViewBindings.findChildViewById(rootView, id);
+      if (tvDaerah == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_perusahaan;
+      TextView tvPerusahaan = ViewBindings.findChildViewById(rootView, id);
+      if (tvPerusahaan == null) {
         break missingId;
       }
 
@@ -72,7 +109,8 @@ public final class ItemRowCategoryBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemRowCategoryBinding((ConstraintLayout) rootView, ivCategory, tvTitle);
+      return new ItemRowCategoryBinding((CardView) rootView, cardView, ivPerusahaan, lineSeparator,
+          tvDaerah, tvPerusahaan, tvTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

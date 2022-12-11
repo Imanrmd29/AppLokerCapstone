@@ -42,6 +42,8 @@
     <string name="nomor_telepon">Nomor Telepon</string>
     <string name="alamat_email">Alamat Email</string>
     <string name="simpan">Simpan</string>
+    <string name="foto_perusahaan">Foto Perusahaan</string>
+    <string name="list_pekerjaan">List Pekerjaan</string>
     <string-array name="jenis_kelamin">
         <item>Laki - laki</item>
         <item>Perempuan</item>

@@ -1073,6 +1073,7 @@ attr suffixText
 attr suffixTextAppearance
 attr suffixTextColor
 attr suggestionRowLayout
+attr swipeRefreshLayoutProgressSpinnerBackgroundColor
 attr switchMinWidth
 attr switchPadding
 attr switchStyle
@@ -3585,10 +3586,12 @@ id btn_kembali
 id btn_simpan
 id buat_akun
 id button
+id button2
 id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id card_view
 id carryVelocity
 id center
 id centerCrop
@@ -3699,6 +3702,7 @@ id give_us_a_review_landmine_button
 id give_us_a_review_landmine_main_layout
 id give_us_a_review_landmine_text_1
 id give_us_a_review_landmine_text_2
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -3719,11 +3723,11 @@ id ignore
 id ignoreRequest
 id image
 id imageMobile
-id imageView
-id imageView2
-id imageView3
 id imageView4
 id imageWeb
+id image_button_mobile
+id image_button_ux
+id image_button_webDev
 id image_spalash
 id immediateStop
 id included
@@ -3733,8 +3737,8 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
-id iv_category
 id iv_edit_profile
+id iv_perusahaan
 id iv_profile
 id jumpToEnd
 id jumpToStart
@@ -3745,9 +3749,11 @@ id leftToRight
 id legacy
 id line1
 id line3
+id line_separator
 id linear
 id listMode
 id list_item
+id list_perusahaan
 id loading
 id locale
 id login
@@ -3938,6 +3944,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id swipe_refresh
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3973,6 +3980,7 @@ id textView3
 id textView4
 id textView5
 id textView6
+id textView7
 id textView8
 id textView9
 id textWeb
@@ -4001,8 +4009,9 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_daerah
 id tv_email_profile
-id tv_list
+id tv_perusahaan
 id tv_profile
 id tv_title
 id unchecked
@@ -4180,8 +4189,11 @@ layout fragment_edit_profile
 layout fragment_home
 layout fragment_list
 layout fragment_login
+layout fragment_mobile
 layout fragment_profile
 layout fragment_register
+layout fragment_ux
+layout fragment_web_dev
 layout item_row_category
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -4306,6 +4318,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string foto_perusahaan
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
@@ -4315,6 +4328,7 @@ string invalid_username
 string item_view_role_description
 string jenis_kelamin
 string kategori
+string list_pekerjaan
 string login
 string login_failed
 string logout
@@ -5635,6 +5649,7 @@ styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
 styleable StateSet defaultState
+styleable SwipeRefreshLayout swipeRefreshLayoutProgressSpinnerBackgroundColor
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchMaterial useMaterialThemeColors
 styleable TabItem android_icon android_layout android_text

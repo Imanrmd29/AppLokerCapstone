@@ -6,108 +6,108 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml
+8-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml
+9-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:6:5-67
-11-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:6:22-64
+11-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:6:5-67
+11-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:6:22-64
 12
 13    <application
-13-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:8:5-38:19
+13-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:8:5-38:19
 14        android:allowBackup="true"
-14-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:9:9-35
+14-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:9:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.8.0] C:\Users\ilham\.gradle\caches\transforms-3\319818de8066db9dee1015fa48896948\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+15-->[androidx.core:core:1.8.0] C:\Users\lenov\.gradle\caches\transforms-3\319818de8066db9dee1015fa48896948\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 16        android:dataExtractionRules="@xml/data_extraction_rules"
-16-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:10:9-65
+16-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:10:9-65
 17        android:debuggable="true"
 18        android:fullBackupContent="@xml/backup_rules"
-18-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:11:9-54
+18-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:11:9-54
 19        android:icon="@mipmap/ic_launcher"
-19-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:12:9-43
+19-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:12:9-43
 20        android:label="@string/app_name"
-20-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:13:9-41
+20-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:13:9-41
 21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:14:9-54
+21-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:14:9-54
 22        android:supportsRtl="true"
-22-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:15:9-35
+22-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:15:9-35
 23        android:testOnly="true"
 24        android:theme="@style/Theme.AppLoker" >
-24-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:16:9-46
+24-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:16:9-46
 25        <activity
-25-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:18:9-29:20
+25-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:18:9-29:20
 26            android:name="com.c22_054.apploker.ui.splashscreen.SplashScreenActivity"
-26-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:19:13-65
+26-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:19:13-65
 27            android:exported="true" >
-27-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:20:13-36
+27-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:20:13-36
 28            <intent-filter>
-28-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:21:13-25:29
+28-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:21:13-25:29
 29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:22:17-69
-29-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:22:25-66
+29-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:22:17-69
+29-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:22:25-66
 30
 31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:24:17-77
-31-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:24:27-74
+31-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:24:17-77
+31-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:24:27-74
 32            </intent-filter>
 33
 34            <meta-data
-34-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:26:13-28:36
+34-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:26:13-28:36
 35                android:name="android.app.lib_name"
-35-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:27:17-52
+35-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:27:17-52
 36                android:value="" />
-36-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:28:17-33
+36-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:28:17-33
 37        </activity>
 38        <activity
-38-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:30:9-33:20
+38-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:30:9-33:20
 39            android:name="com.c22_054.apploker.MainActivity"
-39-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:31:13-41
+39-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:31:13-41
 40            android:exported="false" >
-40-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:32:13-37
+40-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:32:13-37
 41        </activity>
 42
 43        <meta-data
-43-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:35:9-37:57
+43-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:35:9-37:57
 44            android:name="preloaded_fonts"
-44-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:36:13-43
+44-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:36:13-43
 45            android:resource="@array/preloaded_fonts" />
-45-->C:\Users\ilham\Downloads\AppLokerCapstone\app\src\main\AndroidManifest.xml:37:13-54
+45-->E:\AppLokerCapstone\app\src\main\AndroidManifest.xml:37:13-54
 46
 47        <uses-library
-47-->[androidx.window:window:1.0.0] C:\Users\ilham\.gradle\caches\transforms-3\65e9cc4f1cd394591422496676b2102c\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+47-->[androidx.window:window:1.0.0] C:\Users\lenov\.gradle\caches\transforms-3\65e9cc4f1cd394591422496676b2102c\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
 48            android:name="androidx.window.extensions"
-48-->[androidx.window:window:1.0.0] C:\Users\ilham\.gradle\caches\transforms-3\65e9cc4f1cd394591422496676b2102c\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+48-->[androidx.window:window:1.0.0] C:\Users\lenov\.gradle\caches\transforms-3\65e9cc4f1cd394591422496676b2102c\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
 49            android:required="false" />
-49-->[androidx.window:window:1.0.0] C:\Users\ilham\.gradle\caches\transforms-3\65e9cc4f1cd394591422496676b2102c\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+49-->[androidx.window:window:1.0.0] C:\Users\lenov\.gradle\caches\transforms-3\65e9cc4f1cd394591422496676b2102c\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
 50        <uses-library
-50-->[androidx.window:window:1.0.0] C:\Users\ilham\.gradle\caches\transforms-3\65e9cc4f1cd394591422496676b2102c\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+50-->[androidx.window:window:1.0.0] C:\Users\lenov\.gradle\caches\transforms-3\65e9cc4f1cd394591422496676b2102c\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
 51            android:name="androidx.window.sidecar"
-51-->[androidx.window:window:1.0.0] C:\Users\ilham\.gradle\caches\transforms-3\65e9cc4f1cd394591422496676b2102c\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+51-->[androidx.window:window:1.0.0] C:\Users\lenov\.gradle\caches\transforms-3\65e9cc4f1cd394591422496676b2102c\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 52            android:required="false" />
-52-->[androidx.window:window:1.0.0] C:\Users\ilham\.gradle\caches\transforms-3\65e9cc4f1cd394591422496676b2102c\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+52-->[androidx.window:window:1.0.0] C:\Users\lenov\.gradle\caches\transforms-3\65e9cc4f1cd394591422496676b2102c\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
 53
 54        <provider
-54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ilham\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenov\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 55            android:name="androidx.startup.InitializationProvider"
-55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ilham\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenov\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
 56            android:authorities="com.c22_054.apploker.androidx-startup"
-56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ilham\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenov\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 57            android:exported="false" >
-57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ilham\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenov\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 58            <meta-data
-58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ilham\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenov\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ilham\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenov\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 60                android:value="androidx.startup" />
-60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ilham\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenov\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 61            <meta-data
-61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ilham\.gradle\caches\transforms-3\a12ed9220754cce2dddf3ed6d58bf3a3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lenov\.gradle\caches\transforms-3\a12ed9220754cce2dddf3ed6d58bf3a3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ilham\.gradle\caches\transforms-3\a12ed9220754cce2dddf3ed6d58bf3a3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lenov\.gradle\caches\transforms-3\a12ed9220754cce2dddf3ed6d58bf3a3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
 63                android:value="androidx.startup" />
-63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ilham\.gradle\caches\transforms-3\a12ed9220754cce2dddf3ed6d58bf3a3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lenov\.gradle\caches\transforms-3\a12ed9220754cce2dddf3ed6d58bf3a3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
 64        </provider>
 65    </application>
 66

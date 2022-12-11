@@ -4,10 +4,11 @@ package com.c22_054.apploker.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.SearchView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -21,13 +22,16 @@ public final class FragmentCategoryBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView imageView;
+  public final ImageButton imageButtonMobile;
 
   @NonNull
-  public final ImageView imageView2;
+  public final ImageButton imageButtonUx;
 
   @NonNull
-  public final ImageView imageView3;
+  public final ImageButton imageButtonWebDev;
+
+  @NonNull
+  public final SearchView searchBar;
 
   @NonNull
   public final TextView textView;
@@ -38,13 +42,15 @@ public final class FragmentCategoryBinding implements ViewBinding {
   @NonNull
   public final TextView textView3;
 
-  private FragmentCategoryBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView,
-      @NonNull ImageView imageView2, @NonNull ImageView imageView3, @NonNull TextView textView,
-      @NonNull TextView textView2, @NonNull TextView textView3) {
+  private FragmentCategoryBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ImageButton imageButtonMobile, @NonNull ImageButton imageButtonUx,
+      @NonNull ImageButton imageButtonWebDev, @NonNull SearchView searchBar,
+      @NonNull TextView textView, @NonNull TextView textView2, @NonNull TextView textView3) {
     this.rootView = rootView;
-    this.imageView = imageView;
-    this.imageView2 = imageView2;
-    this.imageView3 = imageView3;
+    this.imageButtonMobile = imageButtonMobile;
+    this.imageButtonUx = imageButtonUx;
+    this.imageButtonWebDev = imageButtonWebDev;
+    this.searchBar = searchBar;
     this.textView = textView;
     this.textView2 = textView2;
     this.textView3 = textView3;
@@ -77,21 +83,27 @@ public final class FragmentCategoryBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageView;
-      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
-      if (imageView == null) {
+      id = R.id.image_button_mobile;
+      ImageButton imageButtonMobile = ViewBindings.findChildViewById(rootView, id);
+      if (imageButtonMobile == null) {
         break missingId;
       }
 
-      id = R.id.imageView2;
-      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView2 == null) {
+      id = R.id.image_button_ux;
+      ImageButton imageButtonUx = ViewBindings.findChildViewById(rootView, id);
+      if (imageButtonUx == null) {
         break missingId;
       }
 
-      id = R.id.imageView3;
-      ImageView imageView3 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView3 == null) {
+      id = R.id.image_button_webDev;
+      ImageButton imageButtonWebDev = ViewBindings.findChildViewById(rootView, id);
+      if (imageButtonWebDev == null) {
+        break missingId;
+      }
+
+      id = R.id.search_bar;
+      SearchView searchBar = ViewBindings.findChildViewById(rootView, id);
+      if (searchBar == null) {
         break missingId;
       }
 
@@ -113,8 +125,8 @@ public final class FragmentCategoryBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentCategoryBinding((ConstraintLayout) rootView, imageView, imageView2,
-          imageView3, textView, textView2, textView3);
+      return new FragmentCategoryBinding((ConstraintLayout) rootView, imageButtonMobile,
+          imageButtonUx, imageButtonWebDev, searchBar, textView, textView2, textView3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

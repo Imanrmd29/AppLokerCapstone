@@ -4,10 +4,13 @@ package com.c22_054.apploker.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.c22_054.apploker.R;
@@ -20,11 +23,25 @@ public final class FragmentListBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView tvList;
+  public final Button button2;
 
-  private FragmentListBinding(@NonNull ConstraintLayout rootView, @NonNull TextView tvList) {
+  @NonNull
+  public final RecyclerView listPerusahaan;
+
+  @NonNull
+  public final SwipeRefreshLayout swipeRefresh;
+
+  @NonNull
+  public final TextView textView7;
+
+  private FragmentListBinding(@NonNull ConstraintLayout rootView, @NonNull Button button2,
+      @NonNull RecyclerView listPerusahaan, @NonNull SwipeRefreshLayout swipeRefresh,
+      @NonNull TextView textView7) {
     this.rootView = rootView;
-    this.tvList = tvList;
+    this.button2 = button2;
+    this.listPerusahaan = listPerusahaan;
+    this.swipeRefresh = swipeRefresh;
+    this.textView7 = textView7;
   }
 
   @Override
@@ -54,13 +71,32 @@ public final class FragmentListBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.tv_list;
-      TextView tvList = ViewBindings.findChildViewById(rootView, id);
-      if (tvList == null) {
+      id = R.id.button2;
+      Button button2 = ViewBindings.findChildViewById(rootView, id);
+      if (button2 == null) {
         break missingId;
       }
 
-      return new FragmentListBinding((ConstraintLayout) rootView, tvList);
+      id = R.id.list_perusahaan;
+      RecyclerView listPerusahaan = ViewBindings.findChildViewById(rootView, id);
+      if (listPerusahaan == null) {
+        break missingId;
+      }
+
+      id = R.id.swipe_refresh;
+      SwipeRefreshLayout swipeRefresh = ViewBindings.findChildViewById(rootView, id);
+      if (swipeRefresh == null) {
+        break missingId;
+      }
+
+      id = R.id.textView7;
+      TextView textView7 = ViewBindings.findChildViewById(rootView, id);
+      if (textView7 == null) {
+        break missingId;
+      }
+
+      return new FragmentListBinding((ConstraintLayout) rootView, button2, listPerusahaan,
+          swipeRefresh, textView7);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

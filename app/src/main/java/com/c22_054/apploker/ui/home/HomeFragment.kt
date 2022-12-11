@@ -8,7 +8,10 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.c22_054.apploker.R
 import com.c22_054.apploker.databinding.FragmentHomeBinding
+import com.c22_054.apploker.ui.category.CategoryFragment
+import com.c22_054.apploker.ui.list.MobileFragment
 
 class HomeFragment : Fragment() {
 
@@ -27,10 +30,6 @@ class HomeFragment : Fragment() {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
         (activity as AppCompatActivity?)!!.supportActionBar!!.hide()
-//        val textView: TextView = binding.tvHome
-//        homeViewModel.text.observe(viewLifecycleOwner) {
-//            textView.text = it
-//        }
         return root
     }
 

@@ -1,50 +1,58 @@
 [
     {
-        "merged": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-48:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-52:\\layout\\fragment_web_dev.xml",
+        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-55:\\layout\\fragment_web_dev.xml"
     },
     {
-        "merged": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-48:\\layout\\fragment_login.xml",
-        "source": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\fragment_login.xml"
+        "merged": "com.c22_054.apploker.app-mergeDebugResources-52:/layout/fragment_category.xml",
+        "source": "com.c22_054.apploker.app-main-55:/layout/fragment_category.xml"
     },
     {
-        "merged": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-48:\\layout\\fragment_category.xml",
-        "source": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\fragment_category.xml"
+        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-52:\\layout\\fragment_ux.xml",
+        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-55:\\layout\\fragment_ux.xml"
     },
     {
-        "merged": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-48:\\layout\\fragment_register.xml",
-        "source": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\fragment_register.xml"
+        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-52:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-55:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-48:\\layout\\fragment_list.xml",
-        "source": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\fragment_list.xml"
+        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-52:\\layout\\fragment_category.xml",
+        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-55:\\layout\\fragment_category.xml"
     },
     {
-        "merged": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-48:\\layout\\fragment_profile.xml",
-        "source": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\fragment_profile.xml"
+        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-52:\\layout\\fragment_list.xml",
+        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-55:\\layout\\fragment_list.xml"
     },
     {
-        "merged": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-48:\\layout\\fragment_edit_profile.xml",
-        "source": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\fragment_edit_profile.xml"
+        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-52:\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-55:\\layout\\fragment_login.xml"
     },
     {
-        "merged": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-48:\\layout\\item_row_category.xml",
-        "source": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\item_row_category.xml"
+        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-52:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-55:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-48:\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-52:\\layout\\fragment_mobile.xml",
+        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-55:\\layout\\fragment_mobile.xml"
     },
     {
-        "merged": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-48:\\layout\\activity_splash_screen.xml",
-        "source": "C:\\Users\\ilham\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-51:\\layout\\activity_splash_screen.xml"
+        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-52:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-55:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "com.c22_054.apploker.app-mergeDebugResources-48:/layout/fragment_edit_profile.xml",
-        "source": "com.c22_054.apploker.app-main-51:/layout/fragment_edit_profile.xml"
+        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-52:\\layout\\fragment_edit_profile.xml",
+        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-55:\\layout\\fragment_edit_profile.xml"
     },
     {
-        "merged": "com.c22_054.apploker.app-mergeDebugResources-48:/layout/activity_main.xml",
-        "source": "com.c22_054.apploker.app-main-51:/layout/activity_main.xml"
+        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-52:\\layout\\item_row_category.xml",
+        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-55:\\layout\\item_row_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-52:\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-55:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-mergeDebugResources-52:\\layout\\fragment_register.xml",
+        "source": "C:\\Users\\lenov\\.gradle\\daemon\\7.3.3\\com.c22_054.apploker.app-main-55:\\layout\\fragment_register.xml"
     }
 ]

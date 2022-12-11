@@ -29,10 +29,7 @@ class ListFragment : Fragment() {
         _binding = FragmentListBinding.inflate(inflater, container, false)
         val root: View = binding.root
         (activity as AppCompatActivity?)!!.supportActionBar!!.hide()
-        val textView: TextView = binding.tvList
-        listViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
+
         return root
     }
 
